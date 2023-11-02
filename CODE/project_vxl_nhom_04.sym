@@ -1,0 +1,143 @@
+004-005 @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @TRIS_C
+021     chay
+022     i
+023     mp
+024-02D kytu
+02E-037 passmp
+038-041 kytu_sao
+042-04B mk_doi
+04C-055 mk_doi_ss
+056     b
+057     lan
+058     sl
+059     dem
+05A.0   tt_doi
+05A.1   ss
+05A.2   tt_mo
+05B     k
+05C-05D @sprintf_string
+05E     lcd_command.cm
+05E     dong_cua.k
+05E     @DIV88.P1
+05E     quetphim_4x3.@SCRATCH1
+05E     dem_giay.@SCRATCH1
+05E     @PSTRINGC7_710.@SCRATCH1
+05E     nhap_mk.@SCRATCH1
+05E     nhap_mk_doi.@SCRATCH1
+05E     nhap_mk_doi_ss.@SCRATCH1
+05E     kiem_tra_mk.@SCRATCH1
+05E     kiemtra_mk_doi.@SCRATCH1
+05E     kiem_tra_key_phim.@SCRATCH1
+05E     MAIN.@SCRATCH1
+05F     @DIV88.P1
+05F     @PSTRINGC7_710.@SCRATCH2
+05F     nhap_mk.@SCRATCH2
+05F     nhap_mk_doi.@SCRATCH2
+05F     nhap_mk_doi_ss.@SCRATCH2
+05F     kiem_tra_mk.@SCRATCH2
+05F     kiemtra_mk_doi.@SCRATCH2
+05F     kiem_tra_key_phim.@SCRATCH2
+05F     MAIN.@SCRATCH2
+060     @PSTRINGC7_710.@SCRATCH3
+060     @DIV88.@SCRATCH1
+060     nhap_mk.@SCRATCH3
+060     nhap_mk_doi.@SCRATCH3
+060     nhap_mk_doi_ss.@SCRATCH3
+061     lcd_data.dt
+061     @PSTRINGC7_710.@SCRATCH4
+062     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const734.call
+00000D  @const739.call
+000014  @const743.call
+000015  @const748.call
+00001E  @const749.call
+000027  @const751.call
+000030  @const752.call
+000039  @const753.call
+000042  @const754.call
+00004B  @const755.call
+000055  @const756.call
+00005F  @const758.call
+000068  @const759.call
+000071  @const760.call
+00007A  @const761.call
+00007E  @const765.call
+000087  @const766.call
+000090  @const767.call
+000099  @const768.call
+0000A2  @delay_ms1
+0000B6  lcd_command
+0000DA  lcd_setup
+0000F2  lcd_data
+000116  @PSTRINGC7_710
+00016C  dong_cua
+000182  @DIV88
+000197  kiem_tra_key_phim
+000197  quetphim_4x3
+0002E3  nhap_mk
+000338  kiem_tra_mk
+000376  dem_giay
+000419  nhap_mk_doi
+000470  nhap_mk_doi_ss
+0004A8  kiemtra_mk_doi
+000572  mo_cua
+00058C  @cinit1
+00058C  MAIN
+0005A2  @cinit2
+
+Project Directory:
+    C:\Users\vu\Desktop\vxl\New folder\
+
+Project Files:
+    project_vxl_nhom_04.c                                   [08-Dec-21 23:42  CRC=3E4F7073]
+    project_vxl_nhom_04.h                                   [08-Dec-21 23:39  CRC=00000000]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16F887.h [21-Jan-21 11:32  CRC=461DBE83]
+    tv_key_phim_4x3.c                                       [08-Dec-21 15:34  CRC=ABCC7602]
+    tv_matran_phim.c                                        [08-Dec-21 14:53  CRC=C3060E6D]
+
+Source signature=B645C1D2
+Program memory checksum=0000
+Hex file CRC=FA5A
+
+Units:
+    C:\Users\vu\Desktop\vxl\New folder\project_vxl_nhom_04 (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Compile Mode:   CCS5
+
+Output Files:
+    XREF file:   project_vxl_nhom_04.xsym
+    Errors:      project_vxl_nhom_04.err
+    Ext Symbols: project_vxl_nhom_04.esym
+    INHX8:       project_vxl_nhom_04.hex
+    Symbols:     project_vxl_nhom_04.sym
+    List:        project_vxl_nhom_04.lst
+    Debug/COFF:  project_vxl_nhom_04.cof
+    Project:     project_vxl_nhom_04.ccspjt
+    Call Tree:   project_vxl_nhom_04.tre
+    Statistics:  project_vxl_nhom_04.STA

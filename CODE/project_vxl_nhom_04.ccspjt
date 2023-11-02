@@ -1,0 +1,46 @@
+[PROJECT]
+Target=project_vxl_nhom_04.hex
+Processor_Text=PIC16F887
+CCSVerions=5.101
+Compiler=PCM
+CCSVersion=5.101
+[Target Data]
+FileList=project_vxl_nhom_04.c
+[Directories]
+Include=
+[C:\Users\vu\Desktop\vxl\New folder\project_vxl_nhom_04]
+Type=4
+[mru-list]
+1=project_vxl_nhom_04.c
+
+[fileformats]
+forcecoff=0
+
+[ProjectLog]
+Days=1
+D1=08-12-2021
+D1_L=7
+D1_L1=[85193]Project Opened.
+D1_L2=[85222]Project Closed.
+D1_L3=[85330]Project Opened.
+D1_L4=[85334]Started Editing.
+D1_L5=[85360]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D1_E=1
+D1_D=0
+D1_L6=[85360]Project Closed.
+D1_L7=[85386]Project Opened.
+
+[Opened Files]
+1=project_vxl_nhom_04.c
+t1=2
+Count=1
+[project_vxl_nhom_04.c]
+Type=4
+[Units]
+Count=1
+1=project_vxl_nhom_04 (main)
+
+[defines]
+buildcount=1
